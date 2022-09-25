@@ -1,0 +1,42 @@
+#item {
+  border: solid 2px black;
+  padding: 30px;
+  padding-top: 0px;
+}
+#item div {
+  border: solid 2px black;
+  padding: 30px;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+#article {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 15px;
+  padding: 5px;
+  margin-top: 75px;
+}
+#item div {
+  padding: 10px;
+  margin: 5px;
+  height: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 100px;
+  height: 10px;
+}
+#article div {
+  margin: 10px;
+  width: 271px;
+  height: 152px;
+  margin-bottom: 90px;
+}
+#home {
+  background-color: rgb(183, 181, 181);
+}
+nav div:hover {
+  background-color: grey;
+  cursor: pointer;
+}
